@@ -1,7 +1,100 @@
-# Flowscale configuration file. Do not edit directly  
 version: 0
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
 user_custom_nodes: user_custom_nodes.json
-  
+workflows:
+  - id: 1zcpyn23s58
+    name: 1minute-8k-upscale.json
+    description: ''
+    file: Workflows/1minute-8k-upscale.json
+  - id: kg5jkh5wh7
+    name: ComfyUI_Workflow_1.5.json
+    description: ''
+    file: Workflows/ComfyUI_Workflow_1.5.json
+  - id: k0bax08p9bj
+    name: ComfyUI_Workflow_SDXL.json
+    description: ''
+    file: Workflows/ComfyUI_Workflow_SDXL.json
+  - id: 6nfwu4rhpw
+    name: FaceSwap.json
+    description: ''
+    file: Workflows/FaceSwap.json
+  - id: knpd4uhnmgg
+    name: MYworkflow_api.json
+    description: ''
+    file: Workflows/MYworkflow_api.json
+  - id: evyjlcwryql
+    name: any-character-any-pose.json
+    description: ''
+    file: Workflows/any-character-any-pose.json
+  - id: joytes1asv
+    name: basic-inpainting-workflow.json
+    description: ''
+    file: Workflows/basic-inpainting-workflow.json
+  - id: jrwti4uib2n
+    name: basic-sd15-workflow.json
+    description: ''
+    file: Workflows/basic-sd15-workflow.json
+  - id: fwocdvzvlak
+    name: cartoonist.json
+    description: ''
+    file: Workflows/cartoonist.json
+  - id: 965jcc27mpo
+    name: change-background.json
+    description: ''
+    file: Workflows/change-background.json
+  - id: d20nq2n26kb
+    name: change-face.json
+    description: ''
+    file: Workflows/change-face.json
+  - id: 999x8aqjs98
+    name: flux-inpainting-technique.json
+    description: ''
+    file: Workflows/flux-inpainting-technique.json
+  - id: w040h0xfvig
+    name: giuseppe_nappo_cleopatra_comfyworkflows.json
+    description: ''
+    file: Workflows/giuseppe_nappo_cleopatra_comfyworkflows.json
+  - id: l48jwgr0e2
+    name: img2img-painting.json
+    description: ''
+    file: Workflows/img2img-painting.json
+  - id: 6ybeqyurhsf
+    name: line-drawing.json
+    description: ''
+    file: Workflows/line-drawing.json
+  - id: uf4d2heu7vb
+    name: mimicmotion-ultramimicmotion.json
+    description: ''
+    file: Workflows/mimicmotion-ultramimicmotion.json
+  - id: 19p9s1le3rx
+    name: outfit-to-outfit-controlnet.json
+    description: ''
+    file: Workflows/outfit-to-outfit-controlnet.json
+  - id: hfaegjfo1eo
+    name: photo-to-anime.json
+    description: ''
+    file: Workflows/photo-to-anime.json
+  - id: 2dus68ryqkb
+    name: photorealistic-images.json
+    description: ''
+    file: Workflows/photorealistic-images.json
+  - id: s79id9a7ljo
+    name: pvc-pigures-you.json
+    description: ''
+    file: Workflows/pvc-pigures-you.json
+  - id: m0v3el7rjci
+    name: >-
+      rachelcenter_claymation___how_come_image_changes_every_frame_comfyworkflows.json
+    description: ''
+    file: >-
+      Workflows/rachelcenter_claymation___how_come_image_changes_every_frame_comfyworkflows.json
+  - id: kaahn2t0lwq
+    name: swapface.json
+    description: ''
+    file: Workflows/swapface.json
+  - id: o5zzflvtoek
+    name: text-to-image.json
+    description: ''
+    file: Workflows/text-to-image.json
