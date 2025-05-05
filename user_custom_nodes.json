@@ -112,5 +112,69 @@
     "pip": [],
     "apt": [],
     "cached": "False"
+  },
+  {
+    "name": "ComfyUI_IPAdapter_plus",
+    "url": "https://github.com/cubiq/ComfyUI_IPAdapter_plus",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "cubiq",
+      "title": "ComfyUI_IPAdapter_plus",
+      "id": "ipadapter",
+      "reference": "https://github.com/cubiq/ComfyUI_IPAdapter_plus",
+      "files": [
+        "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
+      ],
+      "preemptions": [
+        "IPAAdapterFaceIDBatch",
+        "IPAdapter",
+        "IPAdapterAdvanced",
+        "IPAdapterBatch",
+        "IPAdapterClipVisionEnhancer",
+        "IPAdapterClipVisionEnhancerBatch",
+        "IPAdapterCombineEmbeds",
+        "IPAdapterCombineParams",
+        "IPAdapterCombineWeights",
+        "IPAdapterEmbeds",
+        "IPAdapterEmbedsBatch",
+        "IPAdapterEncoder",
+        "IPAdapterFaceID",
+        "IPAdapterFromParams",
+        "IPAdapterInsightFaceLoader",
+        "IPAdapterLoadEmbeds",
+        "IPAdapterMS",
+        "IPAdapterModelLoader",
+        "IPAdapterNoise",
+        "IPAdapterPreciseComposition",
+        "IPAdapterPreciseCompositionBatch",
+        "IPAdapterPreciseStyleTransfer",
+        "IPAdapterPreciseStyleTransferBatch",
+        "IPAdapterPromptScheduleFromWeightsStrategy",
+        "IPAdapterRegionalConditioning",
+        "IPAdapterSaveEmbeds",
+        "IPAdapterStyleComposition",
+        "IPAdapterStyleCompositionBatch",
+        "IPAdapterTiled",
+        "IPAdapterTiledBatch",
+        "IPAdapterUnifiedLoader",
+        "IPAdapterUnifiedLoaderCommunity",
+        "IPAdapterUnifiedLoaderFaceID",
+        "IPAdapterWeights",
+        "IPAdapterWeightsFromStrategy",
+        "PrepImageForClipVision"
+      ],
+      "pip": [
+        "insightface"
+      ],
+      "install_type": "git-clone",
+      "description": "ComfyUI reference implementation for IPAdapter models. The code is mostly taken from the original IPAdapter repository and laksjdjf's implementation, all credit goes to them. I just made the extension closer to ComfyUI philosophy."
+    },
+    "nodes": [],
+    "pip": [
+      "insightface"
+    ],
+    "apt": [],
+    "cached": "False"
   }
 ]
